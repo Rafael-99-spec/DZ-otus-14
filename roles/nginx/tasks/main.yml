@@ -1,4 +1,13 @@
 ---
+- name: LYNX| Install lynx net-tools
+  yum:
+    name:
+      - lynx
+      - net-tools
+    state: present
+  tags:
+    - additional
+    
 - name: NGINX | Install EPEL Repo package from standart repo
   yum:
     name: epel-release

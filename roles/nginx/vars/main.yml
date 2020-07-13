@@ -1,4 +1,2 @@
 ---
-- vars:
-    nginx_listen_port: 8080
 # vars file for roles/nginx

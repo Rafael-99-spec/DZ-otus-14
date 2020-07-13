@@ -4,6 +4,6 @@
   become: true
   roles:
     - nginx
-  - vars:
+  vars:
     nginx_listen_port: 8080  
 
